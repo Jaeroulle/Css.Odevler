@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+a {
+    margin: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+ul > a {
+    padding:  8px;
+}
+
+.header-img:hover{
+    box-shadow: 0 0 10px 0 rgb(216, 210, 210);
+    border-radius: 20px;
+    cursor: pointer;
+    
+   
+}
+.fs {
+    border-radius: 30px;
+    padding-top: 2px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15.5vh;
+}
+
+.my-input-conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height:38px;
+    border: 1px solid gainsboro;
+    border-radius: 18px;
+    
+}
+
+.my-input-conteiner > input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    width: 480px;
+    
+}
+
+.my-input-conteiner:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+    
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.my-button-conteiner {
+    padding-top: 53px;
+    
+}
+button {
+    border: none;
+    height: 36px;
+    border-color: #f2f2f2;
+    padding: 0 20px;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+    
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#footer-left {
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#footer-rigth {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+
+}
